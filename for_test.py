@@ -36,6 +36,9 @@
 # dic = {'name' : 'pey', 'phone':'01000000000'}
 # print( dic['name']) -> pey
 
+# print("I like", end= " ") end = " " 줄바꿈 되지 않고 띄어쓰기됨.
+# print("monkey")
+
 # 반복문 for, while
 # while num <= 100:
 # for x in family:      family = ['mother','farther','gentleman']
@@ -44,6 +47,8 @@
 
 # format 함수
 # print('구구단 {0} x {1} = {2}'.format(a, b, a*b)) .format(대괄호 순서로 변수 대입)
+
+# strip() 공백제거 , 특정 문자열 제거 strip("v"), strip("\n") 줄바꿈 제거
 
 
 # 모듈 가져오기
@@ -61,8 +66,9 @@
 # w = Tk() 객체 생성
 # w.title('레이블생성)
 
+
 # 파일 입출력
-#
+# file_IO 파일 확인
 
 # try exception 에러 표시 구문
 #  try:                      try 구문 내 동작 수행시 발생하는 에러들을 except에서 적용
@@ -84,6 +90,8 @@
 #    print('예외 발생여부 상관없이 항상 실행')
 # except Exception as e:  에러코드를 e로 가명을 붙이고 출력할 때 어떤 에러인지 출력.
 #     print('무언가 에러가 발생했습니다. :{0}'.format(e))
+
+
 
 
 

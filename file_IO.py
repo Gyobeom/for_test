@@ -33,13 +33,13 @@
 #안주 프로그램 V 0.4
 import random
 
-alcohols_foods= {}
+alcohols_foods= {} # 딕셔너리
 with open("alcohols.txt", encoding="UTF-8") as fp1:
     with open("foods.txt",encoding="UTF-8") as fp2:
-        alcohols = fp1.readlines()
-        foods = fp2.readlines()
+        alcohols = fp1.readlines() # 술 가져와서 읽기
+        foods = fp2.readlines() # 안주 파일 가져와서 읽기
         for k in range(len(alcohols)):
-            alcohols_foods[alcohols[k].strip('\n')] = foods[k][0:-1] #마지막 역슬래쉬 제거
+            alcohols_foods[alcohols[k].strip('\n')] = foods[k][0:-1] # 술텍스트 파일에서 술가져오고 .strip('\n') 줄바꿈 없애거나, [0:-1]을 통해서 줄바꿈 없앨 수 있음.
 print(alcohols_foods)
 
 while True:
