@@ -91,9 +91,22 @@
 # except Exception as e:  에러코드를 e로 가명을 붙이고 출력할 때 어떤 에러인지 출력.
 #     print('무언가 에러가 발생했습니다. :{0}'.format(e))
 
-
-
-
+# TKinter 위젯
+# Button	단순한 버튼
+# Label	텍스트 혹은 이미지 표시
+# CheckButton	체크박스
+# Entry	단순한 한 라인 텍스트 박스
+# ListBox	리스트 박스
+# RadioButton	옵션 버튼
+# Message	Label과 비슷하게 텍스트 표시. Label과 달리 자동 래핑 기능이 있다.
+# Scale	슬라이스 바
+# Scrollbar	스크롤 바
+# Text	멀티 라인 텍스트 박스로서 일부 Rich Text 기능 제공
+# Menu	메뉴 Pane
+# Menubutton	메뉴 버튼
+# Toplevel	새 윈도우를 생성할 때 사용. Tk()는 윈도우를 자동으로 생성하지만 추가로 새 윈도우 혹은 다이얼로그를 만들 경우 Toplevel를 사용한다
+# Frame	컨테이너 위젯. 다른 위젯들을 그룹화할 때 사용
+# Canvas	그래프와 점들로 그림을 그릴 수 있으며, 커스텀 위젯을 만드는데 사용될 수도 있다
 
 
 
