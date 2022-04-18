@@ -44,9 +44,22 @@
 # for x in family:      family = ['mother','farther','gentleman']
 # for i in range(8):     8번반복 0 ~ 7  range 마지막 숫자 포함 x
 # for i in range(1,8):   7번반복 1 ~ 8  1번부터 7번까지 반복
+# items = ['dd','ss','cc','ff']
+# for item in items 배열 값으로 돌게 할 수 있음 item에는 items배열값이 들어감.
 
 # format 함수
 # print('구구단 {0} x {1} = {2}'.format(a, b, a*b)) .format(대괄호 순서로 변수 대입)
+
+
+# f-string
+# day = '06일'
+# printf(f'오늘 며칠이지?{day}')
+# 문자열내 대괄호 이용해서 변수 출력
+
+# split() 함수
+# a = ['aa.bb.cc.df.f.gg]
+# a.split('.')  a -> ['aa','bb','cc','dd]
+
 
 # strip() 공백제거 , 특정 문자열 제거 strip("v"), strip("\n") 줄바꿈 제거
 

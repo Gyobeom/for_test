@@ -5,12 +5,30 @@
 #파일을 닫을 때 파일객체.close()로 닫음
 
 #파일 쓰기
-# fp = open('war_flower.txt', 'w')
+# fp = open('war_flower.txt', 'w', encoding="UTF-8")
 # print('고니',file=fp) #실제 파일에 작성
 # print('정마담',file=fp) #실제 파일에 작성
 # print('아귀',file=fp) #실제 파일에 작성
 # fp.write('너부리')
 # fp.close()
+
+# fp = open('war_flower.txt', 'a', encoding="UTF-8")
+# fp.write('\n'+'이교범')
+# fp.write('\n'+'인하공전')
+# fp.close()
+
+a = '안녕하세요.반갑습니다.감사합니다.'
+print(a)
+b = a.split('.')
+b.remove(b[-1])
+
+print(len(b))
+print(b)
+
+# print(b.remove(b.count()-1))
+
+
+
 
 # fp = open('wf.txt', 'r' ,encoding="utf-8")
 # #r 생략가능 default 모드가 r
@@ -29,6 +47,10 @@
 #     lines = fp.readlines()
 #     for line in lines:
 #         print(line[:-1])
+
+
+a = ['n','b']
+print(a[-1])
 
 #안주 프로그램 V 0.4
 import random
