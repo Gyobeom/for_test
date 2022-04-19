@@ -38,8 +38,8 @@ w.title('포토뷰어 v0.2')
 #w.geometry('500x500')
 
 
-w.bind('<Next>', pg_up)
-w.bind('<Prior>',pg_dw)
+w.bind('<Right>', pg_up)
+w.bind('<Left>',pg_dw)
 
 
 

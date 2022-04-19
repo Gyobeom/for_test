@@ -9,8 +9,6 @@ def popup():
     else:
         lbl_display.configure(image=p3)
 
-
-
 w = tk.Tk()
 w.title('세 번째 GUI 프로그램')
 

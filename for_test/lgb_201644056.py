@@ -22,6 +22,8 @@ def numdevide():
         result_lbl.configure(text=f'{result}')
     except ZeroDivisionError as e:
         result_lbl.configure(text=f'분모의 0이 올 수 없습니다.\n {e}')
+    except ValueError as e:
+        result_lbl.configure(text=f'{e}\n은 숫자가 아닙니다.')
 
 def rand_cal():
     try:
